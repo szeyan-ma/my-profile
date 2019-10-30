@@ -1,0 +1,106 @@
+div{
+	margin: 80px;
+	padding: 40px;
+}
+
+
+h1 {
+	color: #ffcbcb;
+}
+
+body{
+	background-image: url(https://i.stack.imgur.com/LXNST.jpg); 
+	background-size: cover;
+}
+
+p{
+	color: #ecfcff;
+	font-family: sofia;
+	border-style: dotted;
+	border-color: #f2eee5;
+	border-width: 2px; 
+}
+
+h2{
+	font-size: 20 px;
+	color: #ffcbcb;
+}
+
+h1, h2, h3 {
+	font-family: 'Caveat', cursive;
+	color: #ffcbcb;
+}
+
+ul{
+	color: #badfdb;
+}
+
+a{
+	color: #f2a6a6;
+	text-decoration: none;
+	font-family:'Caveat', cursive;
+	font-size: 40px ;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #e3e7f1;
+}
+
+.container{
+width: 100px
+margin: 30px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-black{
+	background-color: black;
+	padding: 40px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-white{
+	background-color: white;
+	padding: 4px 20px;
+	border-radius: 20px;
+}
+.btn-white:hover {
+	background-color: #ddb6c6;
+	color: #e3e7f1;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size:50px;
+	color: #ecfcff;
+}
+.list-inline i:hover {
+	color: #ffcbcb;
+}
+#introduction p{
+	margin-bottom: 60px: 
+}
+
